@@ -1,0 +1,33 @@
+@media(max-width: 1100px) {
+	.galeriaInformationDiv2 {
+		width: 45%;
+	}
+}
+
+@media(max-width: 1000px) {
+	table {
+		display: none;
+	}
+
+	.galeriaInformationDiv2 {
+		left: 0;
+		color: #fff;
+		background: rgba(0,0,0,0.5);
+		width: 50%;
+		height: 100%;
+	}
+}
+
+@media(max-width: 600px) {
+	#galeriaInformation {
+		padding: 20px;
+	}
+
+	.spanishGeneralPicture {
+		width: 100%;
+	}
+
+	.galeriaInformationDiv1 {
+		margin-bottom: 40px;
+	}
+}

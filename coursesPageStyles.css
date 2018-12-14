@@ -1,0 +1,74 @@
+/*................Services Information Styles...............*/
+#servicesInformation {
+	margin-top: 90px;
+}
+
+.servicesInformationTitle {
+	margin-top: 200px;
+}
+
+/*................Galeria Information Styles...............*/
+#galeriaInformation {
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.1);
+	padding: 50px;
+}
+
+.galeriaInformationTitle {
+	margin-bottom: 70px;
+	font-size: 32px;
+	text-align: center;
+}
+
+.galeriaInformationDiv1 {
+	position: relative;
+	margin-bottom: 70px;
+}
+
+.galeriaInformationDiv2 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 50%;
+}
+.spanishGeneralPicture {
+	box-shadow: 15px 15px 15px rgba(0,0,0,0.3);
+}
+
+/*................Costs Information Styles...............*/
+#costsInformation {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background: blue;
+	padding: 40px;
+}
+
+.costsInformationTitle {
+	margin-bottom: 15px;
+	font-size: 32px;
+}
+
+.costsInformationText {
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+
+div table {
+	position: relative;
+	z-index: 10;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 6px;
+	background: #fff;
+}
+
+.spanishGeneral {
+	margin-top: 200px;
+}

@@ -1,0 +1,93 @@
+@media(max-width: 1000px) {
+	body {
+		background: rgba(0,0,0,0.05);
+	}
+
+	header .icon-menu {
+		display: block;
+		font-size: 30px;
+		margin-top: 25px;
+		margin-left: 20px;
+	}	
+
+	.menuResponsiveLabel {
+		position: absolute;
+		font-size: 12px;
+	}
+
+	.menu {
+		position: absolute;
+		top: 90px;
+		left: 0;
+		transform: translate(-100%);
+		font-size: 35px;
+		font-weight: bold;
+		text-transform: capitalize;
+	}
+
+	.menu ul {
+		display: block;
+	}
+
+	#btn-menu:checked ~ .menu {
+		transition: all 0.3s;
+		transform: translate(0%);
+		background: #fff;
+		width: 100%;
+		height: 600px;
+	}
+
+	#btn-menu:checked ~ .icon-menu {
+		display: none;
+		transition: all 0.3s;
+	}
+
+	#btn-menu:checked ~ .icon-cancel {
+		display: block;
+		font-size: 40px;
+		margin-top: 22px;
+		margin-left: 20px;
+		transition: all 0.3s;
+	}
+
+	.closeResponsiveLabel {
+		position: absolute;
+		font-size: 12px;
+		margin-top: -8px;
+		margin-left: 5px;
+	}
+
+	#servicesInformation {
+		height: 100%;
+		margin-bottom: 60px;
+	}
+
+	.containerServices [class^="icon-"] {
+		display: flex;
+		transition: all 0.3s;
+	}
+
+	.containerServices {
+		display: block;
+		margin-left: 40px;
+		padding-top: 80px;
+		transition: all 0.3s;
+	}
+
+	.letsStart div {
+		display: none;
+	}
+
+	.scrollUp {
+		position: relative;
+		margin-top: 90px;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+}
+
+@media(max-width: 1400px) {
+	.onlineStudentPicture {
+		height: 660px;
+	}
+}

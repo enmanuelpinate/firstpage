@@ -1,0 +1,70 @@
+/*................Team Pictures Styles...............*/
+#teamContainer {
+	margin-top: 90px;
+	width: 100%;
+	height: 100%;
+	background: blue;
+	display: flex;
+	justify-content: space-between;
+	padding: 50px;
+}
+
+.mainContainerTeam { 
+	position: relative;
+	width: 250px;
+	height: 328px;
+	background: blue;
+}
+
+.theCard {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;
+	transition: all 0.5s;
+	background: yellow;
+	cursor: pointer;
+}
+
+.theCard:hover {
+	transform: rotateY(180deg);
+}
+
+.theFront {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	backface-visibility: hidden;
+	background: white;
+	color: black;
+}
+
+.theBack {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	backface-visibility: hidden;
+	background: #fafafa;
+	color: #333;
+	transform: rotateY(180deg);
+	text-align: center;
+}
+
+.theBack h1 {
+	margin-top: 20px;
+}
+
+.teamPicture {
+	position: absolute;
+	width: 100%;
+}
+
+.teamName {
+	text-align: center;
+	margin-top: 258px;
+}
+
+.theBack p {
+	padding: 10px;
+	text-align: justify;
+}
